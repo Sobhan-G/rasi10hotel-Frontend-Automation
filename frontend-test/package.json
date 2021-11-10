@@ -1,0 +1,25 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testvtr":"percy exec cypress run --spec cypress/integration/hello-percy.spec.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --reporter mochawesome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.70",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^8.7.0"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0"
+  }
+}
