@@ -27,9 +27,9 @@ describe('log in and and make a reservation', function(){
 
         cy.get(newReservFunc.startdate).type('2021-11-04')
         cy.get(newReservFunc.enddate).type('2021-11-11')
-        cy.get(newReservFunc.chooseclient).select('sobhan (#3)')
-        cy.get(newReservFunc.chooseroom).select('Floor 1, Room 102')
-        cy.get(newReservFunc.amountbill).select('ID: 3')
+        cy.get(newReservFunc.chooseclient).select(1)
+        cy.get(newReservFunc.chooseroom).select(1)
+        cy.get(newReservFunc.amountbill).select(1)
         newReservFunc.ClickSaveBtn(cy)
         cy.wait(3000)
 
