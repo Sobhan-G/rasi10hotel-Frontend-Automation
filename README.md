@@ -35,3 +35,12 @@ Lärdomar
 Projektet gav mig en djupare förståelse för hur Cypress integreras i Vue-miljöer,
 hur man skriver robusta tester och hur man felsöker vid DOM-manipulation.
 
+Exempel på automatiserade tester
+Inloggning med korrekt och felaktig information
+Navigering mellan sidor
+Verifiering av UI-komponente
+
+Syfte & reflektion
+Projektet skapades för att öva på testautomatisering och testdrivet tänk. Det fungerade också som bas för framtida, mer avancerade tester
+
+
