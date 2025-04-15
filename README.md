@@ -17,7 +17,7 @@ Ett övningsprojekt där jag utvecklat grundläggande testautomatisering för en
 
 ## Installation
 ```bash
-git clone https://github.com/Sobhan-G/automation-Sobhan-Gilani.git
+git clone https://github.com/Sobhan-G/rasi10hotel-frontend-automation.git
 cd automation-Sobhan-Gilani
 npm install
 npx cypress open
